@@ -90,19 +90,43 @@ input {
 
 }
 
-@media (max-width:600px) and (min-width:200px) {
+@media (max-width:768px) and (min-width:481px) {
 
     body {
         width: 50%;
 
     }
+main{
+    display:contents;
+margin-bottom: 10%;
+
 
 }
+.div{
+ 
+    width: 150%;
+}
+.button1{
+width:174%
+}
+}
 
+@media (max-width:480px) and (min-width:200px) {
 
-@media (orientation: landscape) (max-width:600px) {
     body {
-        50%
-    }
+        width: 50%;
 
+    }
+main{
+    display:contents;
+margin-bottom: 10%;
+
+
+}
+.div{
+    width: 130%;
+}
+.button1{
+width:165%
+}
 }
